@@ -14,16 +14,14 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
-# Program to find the solution for the given linear equations.
-# Developed by:  rakesh S
-# RegisterNumber: 212225240114
+# Linear Algebra Exp 1
 '''
 Write a program to find a solution to a system of linear equations
 5x-3y-10z=-9, 
 2x+2y-3z=4, 
 -3x-y+5z=-1
 '''
-'''
+
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -31,7 +29,7 @@ A=[[5,-3,-10],[2,2,-3],[-3,-1,5]]
 B=np.array([-9,4,-1])
 C=np.linalg.solve(A,B)
 print(C)
-'''
+
 
 
 ## Output:
