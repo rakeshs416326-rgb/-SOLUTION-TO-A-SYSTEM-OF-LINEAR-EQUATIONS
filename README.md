@@ -34,7 +34,8 @@ print(C)
 
 
 ## Output:
-<img width="1046" height="641" alt="image" src="https://github.com/user-attachments/assets/f297e542-842c-49ce-9048-19f8bc6f3d46" />
+<img width="926" height="852" alt="image" src="https://github.com/user-attachments/assets/8472a4f7-6865-466b-a94a-fb04b844fed1" />
+
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
