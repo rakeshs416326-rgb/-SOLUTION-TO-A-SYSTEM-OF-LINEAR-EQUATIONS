@@ -21,7 +21,7 @@ Write a program to find a solution to a system of linear equations
 2x+2y-3z=4, 
 -3x-y+5z=-1
 ```
-'''python
+~~~python
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -30,7 +30,7 @@ B=np.array([-9,4,-1])
 C=np.linalg.solve(A,B)
 print(C)
 
-'''
+~~~
 
 
 ## Output:
